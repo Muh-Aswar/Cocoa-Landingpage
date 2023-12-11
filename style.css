@@ -110,7 +110,7 @@
 .text-jumbotron .konten>a{
     text-decoration: none;
     font-size: 1rem;
-    color: #81570a;
+    color: #976404;
     
 }
 .text-jumbotron .konten>a>h3{
@@ -118,8 +118,11 @@
     text-align: center;
     margin-top: 35px;
     padding: 7px 25px;
-    width: 200px;
-    border-radius: 2px;
+    width: 230px;
+    border-bottom-right-radius: 120px;
+    border-top-left-radius: 20px;
+    /* border-radius: 12px; */
+    border: 1px solid #976404;
     cursor: pointer;
 }
 .text-jumbotron .konten>a>h3:hover{
