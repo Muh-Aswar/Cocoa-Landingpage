@@ -1,0 +1,431 @@
+@font-face {
+    font-family: 'popins';
+    src: url(asset/font/Poppins/Poppins-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* line-height: 0; */
+    box-sizing: border-box;
+    font-family: 'popins';
+}
+
+.container-nav{
+    background: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-nav .wraper-nav{
+    /* background: #8888; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.wraper-nav .logo{
+    width: 35px;
+    margin: 10px;
+
+}
+.wraper-nav .logo img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.wraper-nav .menu{
+    /* background: yellowgreen; */
+    display: flex;
+    justify-content: center;
+}
+.wraper-nav .menu>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;   
+}
+.wraper-nav .menu>ul>li{
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+
+
+
+/* ---------- Jumbotron ---------- */
+
+.container-jumbotron{
+    /* background: #e76060; */
+    /* background: #3c3c3c; */
+    background: rgb(126,61,31);
+    background: linear-gradient(120deg, rgba(126,61,31,1) 30%, rgba(179,123,4,1) 72%);height: 550px;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-jumbotron .wraper-jumbotron{
+    /* background: violet; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-jumbotron .bg-jumbotron{
+    /* background: #3c3c3c; */
+    width: 100%;
+    height: 100%;
+    margin-left: -50%;
+    overflow: hidden;
+    line-height: 0;
+}
+.container-jumbotron .bg-jumbotron>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.wraper-jumbotron .text-jumbotron{
+    /* background: #111ccc; */
+    width: 80%;
+    color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    z-index: 1;
+}
+.text-jumbotron .konten{
+    /* background: turquoise; */
+    width:80%;
+}
+.text-jumbotron .konten>h2{
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.text-jumbotron .konten>h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.text-jumbotron .konten>a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #81570a;
+    
+}
+.text-jumbotron .konten>a>h3{
+    background: #fff;
+    text-align: center;
+    margin-top: 35px;
+    padding: 7px 25px;
+    width: 200px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.text-jumbotron .konten>a>h3:hover{
+    background: #81570a;
+    color: #fff;
+}
+
+/* ---------- End Jumbotron ---------- */
+
+/* ---------- Produk ---------- */
+.container-product{
+    /* background: #cc34aa; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-product .wraper-product{
+    /* background: #876abc; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    z-index: 2;
+    
+}
+.wraper-product .card-product{
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    /* border-radius: 100px; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #81570a;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    overflow: hidden;
+}
+.wraper-product .card-product .card-img{
+    /* background: #81570a; */
+    width: 100%;
+    /* border-radius: 100px; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-product .card-img>img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ---------- End Produk ---------- */
+
+
+
+/* ---------- Petani ---------- */
+
+.container-panen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-panen .wraper-panen{
+    /* background: #81570a; */
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container-panen .wraper-panen .card-panen{
+    /* width: 50%; */
+    padding: 20px;
+}
+.wraper-panen .card-panen>h1{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.card-panen .panen-content{
+    margin-top: 30px;
+    padding: 0 100px;
+}
+.card-panen .container-petani{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.container-petani .wraper-row-petani{
+    /* background: chocolate; */
+    width: 70%;
+    display: flex;
+}
+.container-petani .wraper-row-petani>img{
+    width: 100%;
+    border: 3px solid #fff;
+    object-fit: cover;
+    margin: 10px;
+}
+.container-petani .wraper-col-petani{
+    /* background: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+.container-petani .wraper-col-petani>img{
+    /* border: 3px solid yellow; */
+    width: 100%;
+    margin: 10px;
+}
+
+/* ---------- End Petani ---------- */
+
+/* ---------- Why Us ---------- */
+
+.container-whyus{
+    background: #81570a;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+    margin: 150px 0;
+}
+.container-whyus .wraper-whyus{
+    /* background: #cdeb22; */
+    width: 80%;
+    display: flex;
+}
+.wraper-whyus .whyus-img{
+    width: 100%;
+    height: 550px;
+    padding: 20px 50px;
+}
+.wraper-whyus .whyus-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wraper-whyus .whyus-content{
+    /* background: #2291eb; */
+    width: 60%;
+}
+.whyus-content .whyus-text{
+    /* background: #da22eb; */
+    padding: 10px 20px;
+}
+.white{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+.whyus-content .whyus-text .whyus-heading{
+    display: flex;
+    align-items: center;
+    color: #ccc;
+}
+.whyus-content .whyus-text .whyus-heading>h1{
+    font-size: 3rem;
+    margin-right: 10px;
+}
+.whyus-content .whyus-text .whyus-heading>h2{
+    font-size: 1.2rem;
+}
+.whyus-content .whyus-text>p{
+    color: #ccc;
+}
+
+
+
+/* ---------- End Why Us ---------- */
+
+
+
+
+
+
+
+
+
+/* ---------- Certificate ---------- */
+.container-certificate{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container-certificate .wraper-certificate{
+    /* background: violet; */
+    width: 80%;
+    margin-bottom: 150px;
+}
+.wraper-certificate .heading-certificate{
+    margin: 20px 0;
+}
+.wraper-certificate .heading-certificate{
+    /* border-bottom: 1px solid #ccc; */
+    font-size: 1.7rem;
+}
+.wraper-certificate .content-certificate{
+    /* background: #81570a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    padding: 30px 0;
+}
+.content-certificate .card-certificate{
+    /* background: #ccc; */
+    width: 150px;
+    height: 150px;
+}
+.content-certificate .card-certificate>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ---------- End Certificate ---------- */
+
+
+
+
+
+
+
+
+/* ---------- Footer ---------- */
+
+.container-footer{
+    background: #98d32a;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-footer .wraper-footer{
+    width: 80%;
+    color: #000;
+}
+.container-footer .wraper-footer>h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #81570a;
+    width: 150px;
+}
+.wraper-footer .kontent-footer{
+    /* background: yellow; */
+    display: flex;
+    padding-top: 20px;
+}
+.kontent-footer .kontak-footer{
+    /* background: turquoise; */
+    width: 40%;
+}
+.kontak-footer .kontak-card{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.kontak-footer .kontak-card>p{
+    padding: 5px 10px;
+}
+.kontak-footer .kontak-card>img{
+    width: 20px;
+}
+.kontak-footer .social-media-kontak{
+    /* background: #81570a; */
+    display: flex;
+    align-items: center;
+}
+.social-media-kontak .sosmed-card{
+    width: 25px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.social-media-kontak .sosmed-card>img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.kontent-footer .policy-footer{
+    width: 30%;
+    /* border-left: 1px solid #fff; */
+}
+.policy-footer>p{
+    padding: 5px 10px;
+}
+.policy-footer .wraper-card-payment{
+    display: flex;
+    align-items: center;
+    /* background: #ccc; */
+}
+.wraper-card-payment .payment-card{
+    /* background: yellow; */
+    width: 150px;
+    margin: 5px;
+}
+.wraper-card-payment .payment-card>img{
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ---------- End Footer ---------- */
